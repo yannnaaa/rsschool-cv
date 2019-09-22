@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Calibri, sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    width: 1024px;
+    margin: 20px 20px 20px 20px;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.photo {
+    display: inline-block;
+    border: 5px solid gray;
+    width: 163px;
+    height: 194px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+.contact li span {
+    font-style: italic;
+}
